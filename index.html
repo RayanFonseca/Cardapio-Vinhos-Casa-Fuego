@@ -6,10 +6,11 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <style rel="stylesheet" href="style.css"></style>
     <title>Casa Fuego Vinhos</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<body class="bg-gray-100 font-sans">
+<body class="bg-gray-50 font-sans">
     <div class="container mx-auto p-6">
-        <h1 class="text-4x1 font-bold text-center text-gray-800 mb-8">Cardápio de Vinhos</h1>
+        <h1 class="text-4xl font-bold text-center text-gray-800 mb-8">Cardápio de Vinhos</h1>
         <div class="flex justify-center mb-6">
             <select id="wineTypeFilter" class="p-2 border rounded-lg bg-white text-gray-700">
                 <option value="all">Todos os Vinhos</option>
@@ -20,7 +21,8 @@
         </div>
     </div>
     <div id="wineList" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-    <div class="wine-card bg-white rounded-lg shadow-lg p-6" data-type="Tinto">
+    <div class="wine-card bg-white border-2 border-gray-200 rounded-lg shadow-md p-4  mb-4 " data-type="Tinto">
+        <img src="imagens/teste.jpg"   alt="Adegamãe Atlântico Tinto Seco" class="wine-image mr-4">
         <h2 class="text-2xl font-semibold text-gray-800">Adegamãe - Atlântico Tinto Seco</h2>
         <img src="imagens/caixa-de-presente-de-renderizacao-3d-com-pacote-de-presente-de-fita.jpg" alt="Adegamãe Atlantico Tinto Seco" class="wine-image mr-4">
         <p class="text-gray-600">País: Portugal</p>
